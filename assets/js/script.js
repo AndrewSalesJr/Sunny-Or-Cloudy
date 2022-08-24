@@ -24,3 +24,12 @@ var currentURL = "https://api.openweathermap.org/data/2.5/weather?";
             icon: `http://openweathermap.org/img/w/${response1.weather[0].icon}.png`,
             desc: response1.weather[0].description
         }
+
+        $('#forecast').empty(); 
+        $('#cityName').text(weatherObj.city + " (" + weatherObj.date + ")");
+        $('#currWeathIcn').attr("src", weatherObj.icon);
+        $('#currTemp').text("Temperature: " + weatherObj.temp + " " +  "°F");
+        $('#currHum').text("Humidity: " + weatherObj.humidity + "%");
+        $('#currWind').text("Windspeed: " + weatherObj.wind + " MPH");      
+    
+        city = `&lat=${parseInt(response1.coord.lat)}&lon=${parseInt(response1.coord.lon)}`;
