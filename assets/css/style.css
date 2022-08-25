@@ -38,11 +38,6 @@ li {
     background-color: lightgrey;
 }
 
-.cityList:hover {
-    background-color: #0275d8;
-    color: #fff;
-}
-
 #fiveDayHeader {
     margin-left: 10px;
     margin-top: 10px;
@@ -50,8 +45,5 @@ li {
 
 .container {
     margin-top: 5px;
-}
-
-.SearchForCity {
-    display: inline-block;
+    width: 100%;
 }
