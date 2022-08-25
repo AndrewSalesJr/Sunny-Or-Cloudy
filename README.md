@@ -1,7 +1,8 @@
 # Sunny-Or-Cloudy
 
-*
-*
+https://andrewsalesjr.github.io/Sunny-Or-Cloudy/
+*![WeatherDashboard](https://user-images.githubusercontent.com/93755640/186562443-67d5e355-8254-4057-9413-379b4aad4919.jpeg)
+
 
 ## Project Overview
 Sunny-Or-Cloudy is a project in which I must create a page for tourists who wish to check the current and near future weather of areas they wish to visit.
